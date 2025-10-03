@@ -9,7 +9,15 @@
       "matchDatasources": ["terraform-provider"],
       "rangeStrategy": "bump",
       "separateMajorMinor": true,
-      "separateMinorPatch": true
+      "separateMinorPatch": true,
+      "schedule": ["before 3:30am every day"]
+    },
+    {
+      "matchDatasources": ["terraform"],
+      "rangeStrategy": "bump",
+      "separateMajorMinor": true,
+      "separateMinorPatch": true,
+      "schedule": ["before 3:30am every day"]
     }
   ]
 }
